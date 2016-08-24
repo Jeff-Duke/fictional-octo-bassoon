@@ -3,6 +3,23 @@ body {
   flex-direction: column;
   align-items: center; }
 
+.week-description {
+  background-color: lightgrey;
+  color: black;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-bottom: -16px; }
+
+.week-description-list {
+  list-style: none;
+  background-color: lightgrey;
+  color: black;
+  font-family: sans-serif;
+  font-weight: normal; }
+
+a {
+  text-decoration: none; }
+
 #week1 {
   background: url("../img/lighter.jpg") no-repeat;
   height: 26em;
