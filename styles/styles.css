@@ -49,6 +49,14 @@ a {
   top: 175px;
   width: 160px; }
 
+.little-almond-logo {
+  border: 2px solid #FFEBCD;
+  border-radius: 100%;
+  bottom: -155px;
+  left: -195px;
+  position: relative;
+  padding: 3px; }
+
 @media (max-width: 600px) {
   #week1 {
     background: url("../img/lighter-media.jpg") no-repeat;
@@ -65,6 +73,13 @@ a {
 
   #week1-copy-water {
     left: 300px;
-    top: 15px; } }
+    top: 15px; }
+
+  .little-almond-logo {
+    bottom: 5px;
+    display: inline-block;
+    left: 460px;
+    position: relative;
+    width: 15px; } }
 
 /*# sourceMappingURL=styles.css.map */
