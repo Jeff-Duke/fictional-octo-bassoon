@@ -1,0 +1,10 @@
+.week3-container {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+@media (min-width: 600px) {
+  .week3 {
+    background: url("../../img/balance600.svg") no-repeat; } }
+
+/*# sourceMappingURL=week3.css.map */
