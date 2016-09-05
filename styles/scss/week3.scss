@@ -6,7 +6,24 @@
 @media (min-width: 600px) {
 
   .week3 {
-  background: url('../../img/balance600.svg') no-repeat;
+    height: 700px;
+    width: 600px;
+    background: url('../../img/balance600.png') no-repeat;
+  }
 
+  .week3-left {
+    font-family: $font-week3-arvo;
+    background-color: yellow;
+    display: inline-block;
+  }
+
+  .week3-right {
+    font-family: $font-week3-noto;
+    position: relative;
+    right: 0;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    background-color: chartreuse;
   }
 }

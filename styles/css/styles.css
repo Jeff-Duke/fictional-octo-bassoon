@@ -1,7 +1,8 @@
 body {
   display: flex;
   flex-direction: column;
-  align-items: center; }
+  align-items: center;
+  min-width: 400px; }
 
 .exercise-container {
   display: flex;
@@ -123,6 +124,22 @@ a {
 
 @media (min-width: 600px) {
   .week3 {
-    background: url("../../img/balance600.svg") no-repeat; } }
+    height: 700px;
+    width: 600px;
+    background: url("../../img/balance600.png") no-repeat; }
+
+  .week3-left {
+    font-family: "Arvo", serif;
+    background-color: yellow;
+    display: inline-block; }
+
+  .week3-right {
+    font-family: "Noto+Sans", sans-serif;
+    position: relative;
+    right: 0;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    background-color: chartreuse; } }
 
 /*# sourceMappingURL=styles.css.map */
