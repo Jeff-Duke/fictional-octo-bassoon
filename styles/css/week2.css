@@ -1,0 +1,26 @@
+.week2 {
+  background-color: black;
+  width: 100vw;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+#week2-copy {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400i;
+  font-size: 1.3em;
+  margin-left: 50px;
+  margin-right: 50px; }
+
+.week-2-emphasis {
+  color: red;
+  font-family: "Vollkorn", serif;
+  font-weight: 700;
+  font-size: 1.6em; }
+
+.span-sig {
+  color: #FFEBCD; }
+
+/*# sourceMappingURL=week2.css.map */

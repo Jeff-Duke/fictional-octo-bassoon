@@ -1,0 +1,128 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.exercise-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+
+.week-description {
+  background-color: lightgrey;
+  color: black;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-bottom: -16px;
+  margin-left: 50px;
+  margin-right: 50px; }
+
+.week-description-list {
+  list-style: none;
+  background-color: lightgrey;
+  color: black;
+  font-family: sans-serif;
+  font-weight: normal;
+  margin-left: 50px;
+  margin-right: 50px; }
+
+a {
+  text-decoration: none; }
+
+#week1 {
+  background: url("../../img/lighter.jpg") no-repeat;
+  height: 26em;
+  width: 40em; }
+
+#week1-copy-fire {
+  font-family: "Unna", serif;
+  font-size: 2.5em;
+  color: #AE061B;
+  display: inline-block;
+  left: 25px;
+  position: relative;
+  top: -15px;
+  text-transform: uppercase;
+  width: 200px; }
+
+#week1-copy-water {
+  color: #4A90E2;
+  display: inline-block;
+  float: right;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 2em;
+  font-style: italic;
+  right: 25px;
+  position: relative;
+  top: 175px;
+  width: 160px; }
+
+.little-almond-logo {
+  border: 2px solid #FFEBCD;
+  border-radius: 100%;
+  bottom: -155px;
+  left: -195px;
+  position: relative;
+  padding: 3px; }
+
+@media (max-width: 600px) {
+  #week1 {
+    background: url("../../img/lighter-media.jpg") no-repeat;
+    display: flex;
+    flex-direction: column;
+    height: 32em;
+    justify-content: flex-end;
+    min-width: 500px;
+    position: relative; }
+
+  #week1-copy-fire {
+    left: 200px;
+    top: 60px; }
+
+  #week1-copy-water {
+    left: 300px;
+    top: 15px; }
+
+  .little-almond-logo {
+    bottom: 5px;
+    display: inline-block;
+    left: 460px;
+    position: relative;
+    width: 15px; } }
+.week2 {
+  background-color: black;
+  width: 100vw;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+#week2-copy {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400i;
+  font-size: 1.3em;
+  margin-left: 50px;
+  margin-right: 50px; }
+
+.week-2-emphasis {
+  color: red;
+  font-family: "Vollkorn", serif;
+  font-weight: 700;
+  font-size: 1.6em; }
+
+.span-sig {
+  color: #FFEBCD; }
+
+.week3-container {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+@media (min-width: 600px) {
+  .week3 {
+    background: url("../../img/balance600.svg") no-repeat; } }
+
+/*# sourceMappingURL=styles.css.map */
