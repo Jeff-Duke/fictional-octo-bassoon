@@ -1,0 +1,28 @@
+@import 'fonts';
+@import 'colors';
+
+.week4 {
+    min-height: 500px;
+    width: 100vw;
+    min-width: 440px;
+    background-color: #2B190D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#week4-copy {
+    font-family: $font-week4-abril;
+    font-size: 2em;
+    color: #576905;
+    margin: 25px;
+}
+
+.week4-whoosh {
+    font-family: $font-week4-open-sans;
+    color: #7BB8B0;
+}
+
+.week4-sig {
+    font-family: $font-week4-open-sans;
+}
