@@ -1,7 +1,8 @@
 body {
   display: flex;
   flex-direction: column;
-  align-items: center; }
+  align-items: center;
+  min-width: 400px; }
 
 .exercise-container {
   display: flex;
@@ -116,13 +117,33 @@ a {
 .span-sig {
   color: #FFEBCD; }
 
-.week3-container {
+.week3 {
+  background-color: #352C2B;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+  height: 700px;
+  width: 600px; }
 
-@media (min-width: 600px) {
-  .week3 {
-    background: url("../../img/balance600.svg") no-repeat; } }
+.week3-top {
+  font-family: "Arvo", serif;
+  font-size: 2em;
+  color: #3C555C;
+  position: relative;
+  right: -50px; }
+
+.week3-bottom {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-family: "Noto+Sans", sans-serif;
+  color: #CD5510;
+  font-size: 4em;
+  margin-left: 25px;
+  margin-top: 150px; }
+
+.week3-sig {
+  font-size: 24px; }
 
 /*# sourceMappingURL=styles.css.map */
